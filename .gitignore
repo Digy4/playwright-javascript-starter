@@ -109,3 +109,9 @@ playwright-report/
 
 allure-results/
 
+.idea/
+
+.DS_Store
+
+terminal_log.txt
+

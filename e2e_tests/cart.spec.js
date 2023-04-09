@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+const test = require("@digy4/digyrunner-playwright/DigyWebTest");
 const { SearchPage } = require("./page-objects/SearchPage");
 const { HomePage } = require("./page-objects/HomePage");
 const { CartPage } = require("./page-objects/CartPage");

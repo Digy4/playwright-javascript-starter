@@ -1,6 +1,6 @@
 // @ts-check
 const { devices } = require('@playwright/test');
-const digyRunnerConfig = require('./digy-runner-config-web');
+const digyRunnerConfig = require('./digy-runner-config-api');
 
 /**
  * Read environment variables from file.
@@ -13,7 +13,7 @@ const digyRunnerConfig = require('./digy-runner-config-web');
  * @type {import('@playwright/test').PlaywrightTestConfig}
  */
 const config = {
-    testDir: './e2e_tests',
+    testDir: './api_tests',
 
     /* Maximum time one test can run for. */
     timeout: 30 * 1000,

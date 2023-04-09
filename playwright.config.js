@@ -1,5 +1,6 @@
 // @ts-check
 const { devices } = require('@playwright/test');
+const digyRunnerConfig = require("./digy-runner-config-web");
 
 /**
  * Read environment variables from file.
@@ -28,15 +29,14 @@ const config = {
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 5 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   // reporter: 'html',
-  // reporter: [
-  //   ['html'],
-  //   ['list'],
-  //   ['./digy-reporter.js'],
-  //   ['allure-playwright', { outputFolder: 'allure-results' }]
-  // ],
+  reporter: [
+    ['html'],
+    ['list'],
+    ['@digy4/digyrunner-playwright/DigyReporter', digyRunnerConfig]
+  ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -100,12 +100,19 @@ const config = {
     //     channel: 'msedge',
     //   },
     // },
-    {
+    /*{
       name: 'Google Chrome',
       use: {
         channel: 'chrome',
       },
-    }
+    },*/
+
+    {
+        name: 'firefox',
+        use: {
+            ...devices['Desktop Firefox'],
+        },
+    },
 
   ],
 

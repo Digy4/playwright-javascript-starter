@@ -3,6 +3,7 @@
 ---
 
 ## Features of this framework
+* [Digy Dashboard](https://release-saas-sprint-1.dkhmetqbwqyzu.amplifyapp.com/)
 * [Design Pattern: Page Object Model](https://playwright.dev/docs/test-pom)
 * [Reporting: Allure](https://www.npmjs.com/package/allure-playwright)
 * [Cloud Integration: SauceLab](https://saucelabs.com/)
@@ -12,14 +13,9 @@
 
 ### Pre-requisites
 * Download and install Node.js
-* Download and install any Text Editor like Visual Code/Sublime/Brackets
-
-### Setup Visual Code
-* Install GitLens Extension from the Marketplace: `GitLens — Git supercharged by GitKraken https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens`
-* Go to Visual Code Preference > Setting and search `formatOnSave` and enable/ON it.
 
 ### Setup Scripts 
-* Clone the repository into a folder
+* Clone the repository into a folder `git clone https://github.com/Digy4/playwright-javascript-starter`
 * Go to Project root directory and install Dependency: `npm install`
 * All the dependencies from package.json would be installed in node_modules folder.
 
@@ -55,7 +51,7 @@
 * [SauceLabs Quickstart](https://docs.saucelabs.com/web-apps/automated-testing/playwright/quickstart/)
     * Set Environment Variables:
         * Open Terminal
-        * Run `touch ~/.bash_profile; open ~/.bash_profile`
+        * Run `touch ~/.bash_profile; open ~/.bash_profile`
         * In TextEdit, add
         * `export SAUCE_USERNAME=“YOUR USERNAME”`
         * `export SAUCE_ACCESS_KEY="YOUR ACCESS KEY"`

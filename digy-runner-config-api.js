@@ -4,7 +4,7 @@ const digyRunnerConfig = {
   env: {
     PROTOCOL: "http",
     HOSTNAME: "localhost",
-    REGION: ``,
+    REGION: "us-east-2",
     PROJECT_NAME: "Playwright-js-starter",
     TEAM_NAME: "TeamPlaywright",
     BUILD_ID: "",
@@ -16,11 +16,14 @@ const digyRunnerConfig = {
     TESTER: "Joe Bloggs",
     BA: "Joe Bloggs",
     DEVELOPER: "Joe Bloggs",
-    RESULTS_SUMMARY_URL: `https://hjkaxoe2zh.execute-api.us-east-2.amazonaws.com/digykube-dev-ht/v3/resultsSummary`,
-    RESULTS_URL: `https://hjkaxoe2zh.execute-api.us-east-2.amazonaws.com/digykube-dev-ht/v3/results`,
+    TEST_TYPE: "API",
+    RESULTS_SUMMARY_URL: `https://rcr0bssa51.execute-api.us-west-2.amazonaws.com/digykube-dev/v3/resultsSummary`,
+    RESULTS_URL: `https://rcr0bssa51.execute-api.us-west-2.amazonaws.com/digykube-dev/v3/results`,
     TAGS: "",
     filterSpecs: true,
     omitFiltered: true,
+    DIGY4_API_KEY: "AKIA44ICIUHKUFEUWCKU",
+    DIGY4_API_SECRET: "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",
   },
 
 };

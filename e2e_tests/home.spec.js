@@ -1,7 +1,6 @@
-//const { test, expect } = require("@playwright/test");
+const test = require("@digy4/digyrunner-playwright/DigyWebTest");
+const { expect } = require("@playwright/test");
 const { HomePage } = require("./page-objects/HomePage");
-const { consoleLogPage } = require("./digy-test-base");
-const { test, expect } = require("./digy-test-base");
 
 test.describe("Home Tests", () => {
 
