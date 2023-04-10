@@ -8,6 +8,5 @@ test.describe("Github Tests", () => {
     page,
   }) => {
     await page.goto('https://github.com/');
-    await page.evaluate(() => console.log('Hitting github.com', 5, {foo: 'bar'}));
   });
 });

@@ -99,7 +99,7 @@ const config = {
           use: {
             channel: 'msedge',
           },
-        },*/
+        }*/
 
         {
             name: 'Google Chrome',
