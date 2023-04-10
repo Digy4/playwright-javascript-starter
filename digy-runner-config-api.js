@@ -3,7 +3,6 @@ const digyRunnerConfig = {
   env: {
     PROJECT_NAME: "Playwright-js-starter",
     TEAM_NAME: "TeamPlaywright",
-    BUILD_ID: "",
     SUITE_NAME: "Regression API",
     APP_VERSION: "2.0",
     ENVIRONMENT: "test",
