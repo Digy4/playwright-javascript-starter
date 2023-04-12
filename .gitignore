@@ -107,8 +107,6 @@ test-results/
 
 playwright-report/
 
-allure-results/
-
 .idea/
 
 .DS_Store
