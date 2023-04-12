@@ -5,7 +5,6 @@
 ## Features of this framework
 * [Digy Dashboard](https://release-saas-sprint-1.dkhmetqbwqyzu.amplifyapp.com/)
 * [Design Pattern: Page Object Model](https://playwright.dev/docs/test-pom)
-* [Reporting: Allure](https://www.npmjs.com/package/allure-playwright)
 * [Cloud Integration: SauceLab](https://saucelabs.com/)
 * [Deep Deletion](https://www.npmjs.com/package/rimraf)
 
@@ -40,11 +39,6 @@
 
 ### How to view failed test screenshot
 * Go to Project root directory: `./test-results/`
-
-### Sample Allure Test Report
-![Playwright and JavaScript Test Report](./assets/test-report.png?raw=true "Playwright and JavaScript Test Report")
-
-![Playwright and JavaScript Test Report Expanded View](./assets/test-report-expanded-view.png?raw=true "Playwright and JavaScript Test Report Expanded View")
 
 
 ### How to run Test on SauceLabs
