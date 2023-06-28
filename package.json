@@ -35,7 +35,7 @@
     "@digy4/digyrunner-playwright": "^0.0.32",
     "aws-sdk": "^2.1346.0",
     "debug": "^4.3.4",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.1.4",
     "got": "^11.8.2",
     "os": "^0.1.2",
     "util": "^0.12.5",
