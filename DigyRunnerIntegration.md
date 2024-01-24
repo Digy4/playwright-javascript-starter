@@ -24,10 +24,10 @@ const digyRunnerConfig = {
     BA: "Joe Bloggs",
     DEVELOPER: "Joe Bloggs",
     TEST_TYPE: "WEB",
-    RESULTS_SUMMARY_URL: `https://rcr0bssa51.execute-api.us-west-2.amazonaws.com/digykube-dev/v3/resultsSummary`,
-    RESULTS_URL: `https://rcr0bssa51.execute-api.us-west-2.amazonaws.com/digykube-dev/v3/results`,
-    DIGY4_API_KEY: "<key>",
-    DIGY4_API_SECRET: "<secret>"
+    RESULTS_SUMMARY_URL: ``,
+    RESULTS_URL: ``,
+    CLIENT_ID: "<key>",
+    CLIENT_SECRET: "<secret>"
   },
 
 };
