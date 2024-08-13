@@ -1,7 +1,9 @@
 const digyRunnerConfig = {
 
   env: {
-    LOB: "product",
+    LOB: "digydashboard",
+    APPLICATION: "checkout",
+    TEAM_NAME: "TeamPlaywight",
     PROJECT_NAME: "Digy4TestProject",
     TEAM_NAME: "TeamPlaywright",
     SUITE_NAME: "Regression WEB",
@@ -13,6 +15,7 @@ const digyRunnerConfig = {
     BA: "Joe Bloggs",
     DEVELOPER: "Joe Bloggs",
     TEST_TYPE: "WEB",
+    RELEASE: "release",
     RESULTS_SUMMARY_URL: `https://2tvjoz1e36.execute-api.us-west-2.amazonaws.com/digy4-prod/v3/resultsSummary`,
     RESULTS_URL: `https://2tvjoz1e36.execute-api.us-west-2.amazonaws.com/digy4-prod/v3/results`,
     PROJECT_PLAN_URL: `https://87z71f2mxj.execute-api.us-west-2.amazonaws.com/prod/users/project-plan-details`,
