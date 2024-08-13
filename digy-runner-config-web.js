@@ -5,7 +5,6 @@ const digyRunnerConfig = {
     APPLICATION: "checkout",
     TEAM_NAME: "TeamPlaywight",
     PROJECT_NAME: "Digy4TestProject",
-    TEAM_NAME: "TeamPlaywright",
     SUITE_NAME: "Regression WEB",
     APP_VERSION: "2.0",
     ENVIRONMENT: "test",
