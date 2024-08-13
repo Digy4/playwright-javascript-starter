@@ -1,6 +1,7 @@
 const digyRunnerConfig = {
 
   env: {
+    LOB: "product",
     PROJECT_NAME: "Digy4TestProject",
     TEAM_NAME: "TeamPlaywright",
     SUITE_NAME: "Regression WEB",
